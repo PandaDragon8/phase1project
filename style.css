@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h4{
+font-size: 3.5rem;
+color: #2c7896;
+}
+
+body{
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-image: linear-gradient( 180deg,  rgba(247,247,247,1) 23.8%, rgb(243, 220, 207) 92% );
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.joke-wrapper{
+    padding: 3rem 2em;
+    margin: 0 2rem;
+    border-radius: 0.5rem;
+}
+h1{
+    color: #5c80bc;
+    margin: 1rem 0;
+}
+#category{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+#setup{
+    margin: 1rem0;
+}
+#delivery{
+    margin-bottom: 1.5rem;
+}
+#gen-joke-btn{
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.8rem;
+    background: #5c80bc;
+    color: #fff;
+    border: 2px solid #5c80bc;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#gen-joke-btn:hover{
+    background: #fff;
+    color: #5c80bc;
+    border-color: #5c80bc;
+}
+#gen-joke-btn:focus{
+    outline:0;
+}
+@media(min-width: 992px){
+    .joke-wrapper{
+        width: 680px;
+    }
+}
+
+#cat_btn:hover{
+    background: #fff;
+    color: #5c80bc;
+    border-color: darksalmon;
+}
+
+#cat_btn:focus{
+    outline:0;
+}
+
+#dog_btn:hover{
+    background: #fff;
+    color: darksalmon;
+    border-color: darksalmon;
+}
+
+#dog_btn:focus{
+    outline:0;
+}
+
+
+/* Start of Cat and Dog styling */
+
+h2{
+    color: darksalmon;
+}
+
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.result {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: darksalmon;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
